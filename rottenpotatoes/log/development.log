@@ -493,3 +493,54 @@ Started GET "/assets/application.self.css?body=1" for ::1 at 2015-07-23 13:57:16
 
 
 Started GET "/assets/application.self.js?body=1" for ::1 at 2015-07-23 13:57:16 -0700
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2015-09-27 22:06:28 -0700
+
+
+Started GET "/movies" for 127.0.0.1 at 2015-09-27 22:06:44 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (2.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (209.6ms)
+Completed 200 OK in 964ms (Views: 842.9ms | ActiveRecord: 10.4ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2015-09-27 22:06:45 -0700
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2015-09-27 22:06:46 -0700
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2015-09-27 22:06:46 -0700
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2015-09-27 22:06:46 -0700
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2015-09-27 22:07:35 -0700
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at 2015-09-27 22:07:52 -0700
+Processing by Rails::InfoController#properties as HTML
+  [1m[35mActiveRecord::SchemaMigration Load (0.4ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  Rendered /home/yh/.rvm/gems/ruby-2.2.2/gems/railties-4.2.1/lib/rails/templates/rails/info/properties.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 100ms (Views: 65.3ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2015-09-27 22:09:22 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (3.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (73.8ms)
+Completed 200 OK in 173ms (Views: 163.8ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2015-09-27 22:09:22 -0700
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2015-09-27 22:09:22 -0700
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2015-09-27 22:09:22 -0700
+
+
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2015-09-27 22:09:22 -0700
